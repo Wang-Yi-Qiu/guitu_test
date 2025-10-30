@@ -11,3 +11,7 @@ execve: execev.c
 	-$(CC) $^ -o $@
 	-./$@
 	-rm $@
+fork_execve: fork_execve.c
+	-$(CC) $^ -o $@
+	-./$@
+	-rm $@
