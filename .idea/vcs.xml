@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/韦东山/doc_and_source_for_mcu_mpu" vcs="Git" />
   </component>
 </project>

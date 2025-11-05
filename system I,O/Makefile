@@ -15,3 +15,15 @@ fork_execve: fork_execve.c
 	-$(CC) $^ -o $@
 	-./$@
 	-rm $@
+waitpid: waitpid.c
+	-$(CC) $^ -o $@
+	-./$@
+	-rm $@
+pstree: ps_tree.c
+	-$(CC) $^ -o $@
+	-./$@
+	-rm $@
+pipe:pipe.c
+	-$(CC) $^ -o $@
+	-./$@ 'tree'
+	-rm ./$@

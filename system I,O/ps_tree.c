@@ -20,8 +20,9 @@ int main(int argc, char *argv[]) {
             perror("WangXiYu上楼失败！");
         }
     }else {
-
+        wait(NULL);
         printf("WangYiQiu%d送完WangXiYu%d之后继续学习\n",getpid(),pid);
+        fgetc(stdin);
         sleep(1);
     }
 }
